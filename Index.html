@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link href="http://fonts.cdnfonts.com/css/haksen" rel="stylesheet">
+
+
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <nav class="container">
+            <h2 id="task"></h2>
+                <button type="button" id="mytask">+</button>    
+
+            <label id="label">ADD ITEM</label>
+        </nav>
+    </section>
+<!-- ///showing no items -->
+
+    <div id="box2"></div>
+
+<!-- /////..... creatin popup button.... -->
+    <div class="backgroundblur">
+        <div class="popup-content">
+            <h1>ADD NEW LIST</h1>
+            <input type="text" id="name" value="" placeholder="Add Items"><br>
+            <button id="add">ADD</button>
+        </div>
+    </div>
+ <!-- <.....creating task button>    -->
+    <div class="listbutton">
+        <h1 class="heading"></h1>
+        <hr id="line">
+        <i id="delt" class="fa-solid fa-trash-can" style="font-size:40px ; color:red ;"></i>
+        <i class="fa-solid fa-circle-plus"></i>
+    </div>
+
+    <script src="todoapp.js"></script>
+</body>
+</html> 

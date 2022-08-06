@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to top right, #33ccff 0%, #ff99cc 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+nav{
+    width: 80%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    padding: 5px;
+    margin-top: 80px;
+    margin-left: 260px;
+}
+nav h2{
+    font-weight: bolder;
+    font-size: 3.8rem;
+    text-align: left;
+    text-shadow: 2px 2px 2px orangered;
+}
+#mytask{
+    margin-top: 10px;
+    margin-left: 40%;
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    color: black;
+}
+#mytask:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    box-shadow: 2px 2px gray;
+}
+#label{
+    margin-top: 13px;
+    margin-left: 15px;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+/* popup button.............................. */
+.backgroundblur{
+    background: rgb(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+
+.popup-content{
+    height: 250px;
+    width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* ................showing no items.......... */
+#box2{
+    margin-top: 30px;
+    margin-left: 14%;
+    font-size: 50px;
+    font-family: 'HAKSEN', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+#text{
+    height: 40px;
+    width: 80%;
+    color: black;
+    margin-top: 30px;
+}
+#add{
+    margin-top: 25px;
+    border: none;
+    font-size: 1.8rem;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+#add:hover{
+    background-color: green;
+}
+
+/* tasklist button................................... */
+
+.listbutton{
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-left: 5%;
+    display: none;
+    flex-direction: row;
+    background-color: white;
+    box-shadow: 4px 4px 4px gray;
+    border: none;
+    border-radius: 10px;
+}
+#heading{
+    color: brown;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+#line{
+    margin-top: 10px;
+}
+
+#delt{
+    margin-top: 110%;
+    margin-left: 70%;
+    /* height: 100px;
+    width: 150px; */
+}
